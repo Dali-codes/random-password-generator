@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #1F2937;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section {
+    width: 550px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 5px #273549;
+    border-radius: 10px;
+}
+ 
+.main-title {
+    font-size: 40px;
+    letter-spacing: -0.025em;
+}
+
+.green-text {
+    color: #4ADF86;
+}
+
+.sub-title {
+   color: #D5D4D8;
+   font-size: 20px;
+   margin: 0;
+}
+
+#generate-password-btn {
+    background-color: #10B981;
+    color: inherit;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 15px;
+    margin-top: 50px;
+    text-shadow: 0 0 3px #000;
+}
+
+#generate-password-btn:hover {
+    cursor: pointer;
+    opacity: .9;
+}
+
+.generated-passwords-container {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #2F3E53;
+    margin-top: 35px;
+}
+
+.generated-password-field {
+    background-color: #273549;
+    border-radius: 6px;
+    margin-top: 35px;
+    width: 190px;
+    height: 40px;
+}
+
+.generated-password {
+    text-align: center;
+    font-family: 'Anonymous Pro', monospace;
+    color: #55F991;
+    padding: 10px 20px;
+    margin: 0;
+}
